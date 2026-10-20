@@ -1,12 +1,19 @@
 name: filenest
-description: FileNest App
+description: FileNest - My Videos Manager
 publish_to: 'none'
-version: 1.0.0+1
+version: 2.0.0+2
+
 environment:
   sdk: '>=3.0.0 <4.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.6
+  file_picker: ^8.0.0
+  video_player: ^2.8.2
+  permission_handler: ^11.3.0
+  path_provider: ^2.1.2
+
 flutter:
   uses-material-design: true
